@@ -1,39 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Example</title>
-    <style>
-        .container {
-            display: grid;
-            gap: 9px;
-            grid-template-columns: repeat(3, 1fr);
-            /* grid-template-rows: repeat(2, 1fr); */
-            border: 5px solid black;
-            grid-template-rows: auto;
-        }
-
-        .area {
-            width: 200px;
-            height: 150px;
-            background-color: rgba(216, 183, 140, 0.632);
-        }
-    </style>
+    <title>Bento Grid</title>
+    <link rel="stylesheet" href="chatgptBentogrid.css">
 </head>
-
 <body>
-    <div class="container">
-        <div class="area area1">This is Cell 1</div>
-        <div class="area area2">This is Cell 2</div>
-        <div class="area area3">This is Cell 3</div>
-        <div class="area area4">This is Cell 4</div>
-        <div class="area area5">This is Cell 5</div>
-        <div class="area area6">This is Cell 6</div>
-        <div class="area area7">This is Cell 7</div>
-        <div class="area area8">This is Cell 8</div>
+    <div class="bento-grid">
+        <div class="bento-item item1">Box 1</div>
+        <div class="bento-item item2">Box 2</div>
+        <div class="bento-item item3">Box 3</div>
+        <div class="bento-item item4">Box 4</div>
+        <div class="bento-item item5">Box 5</div>
+        <div class="bento-item item6">Box 6</div>
+        <div class="bento-item item7">Box 7</div>
+        <div class="bento-item item8">Box 8</div>
     </div>
 </body>
-
 </html>
